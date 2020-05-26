@@ -163,6 +163,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    #banner {
+        width: 90vw;
+        padding: 10px;
+    }
+
+    #banner-bg {
+        margin: -30px;
+    }
+}
+
 @media only screen and (min-width: 801px) and (max-width: 1200px) {
     #banner {
         width: 65vw;
@@ -184,12 +195,20 @@ body {
 
 @media only screen and (max-height: 580px) {
     #banner {
-        height: 80%;
-        width: 80%;
+        height: 100vh;
+        width: 90%;
         align-items: center;
     }
 
+    #call {
+        font-size: 15px;
+    }
+
     #map { 
-        width: 500px;
+        width: 300px;
+    }
+
+    #info {
+        margin-left: -50%;
     }
 }
